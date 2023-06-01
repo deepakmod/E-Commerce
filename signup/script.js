@@ -26,7 +26,7 @@ signup_btn.addEventListener("click",(event)=>{
     }
 
     if(ValidateEmail(email) === false){
-        error.innerText="Plaese Enter a valid Email!";
+        error.innerText="Please Enter a valid Email!";
         return;
     }
     
