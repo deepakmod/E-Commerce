@@ -76,6 +76,7 @@ function calculateTotal(){
     cart.forEach((element)=>{
         total+=element.price;
     })
+    total=total.toFixed(2);
     let div=document.createElement('div');
     div.className="distance";
     let title=document.createElement("div");
