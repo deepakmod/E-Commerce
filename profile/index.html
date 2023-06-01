@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="/">Profile</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <form id="name-form">
+        <h2>My Profile</h2>
+        <input id="fname" type="text" placeholder="First Name">
+        <input id="lname" type="text" placeholder="Last Name">
+        <button class="btn" id="save-btn">Save Info</button>
+        <p id="error"></p>
+      </form>
+  
+      <form id="password-form">
+        <h2>Edit Password</h2>
+        <input id="opassword" type="password" placeholder="Old Password">
+        <input id="password" type="password" placeholder="New Password">
+        <input id="cpassword" type="password" placeholder="Confirm Password">
+        <button class="btn" id="change-password-btn">Change Password</button>
+        <button class="btn" id="logout-btn">Logout</button>
+        <p id="error2"></p>
+      </form>
+    </div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
